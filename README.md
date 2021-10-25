@@ -10,5 +10,6 @@ O programa conta com mais de 1.500 horas de aulas online, aborda instrodução a
 
 #### Bloco 1 : Introdução - Unix & Shell
 
-[ ] 1-3: Unix & Shell - Parte 1
+-[ ] 1-3: Unix & Shell - Parte 1
 [ ] 1-4: Unix & Shell - Parte 2
+- [ ] 1-3:
