@@ -12,3 +12,10 @@ O programa conta com mais de 1.500 horas de aulas online, aborda instrodução a
 
 - [X] 1-3: Unix & Shell - Parte 1
 - [X] 1-4: Unix & Shell - Parte 2
+
+#### Bloco 2 : Git, Github e Internet
+
+- [X] 2-1: Git e Github: Parte 1
+- [ ] 2-2: Git e Github: Parte 2
+- [ ] 2-2: Internet
+
