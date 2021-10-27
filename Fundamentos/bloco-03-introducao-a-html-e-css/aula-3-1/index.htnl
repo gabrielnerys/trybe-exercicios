@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Amizades que fiz na Trybe</title>
+</head>
+<body>
+    <p>
+        <h1>Esses são alguns dos amigos que fiz na trybe</h1>
+        <h3>
+            <ul>
+                <li>Bruno</li>
+                <li>Camila</li>
+                <li>Brenndha</li>
+                <li>Leo</li>
+                <li>Ed</li>
+                <li>Rick</li>
+            </ul>
+        </h3>    
+    </p>
+</body>
+</html>
