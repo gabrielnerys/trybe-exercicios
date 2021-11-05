@@ -19,10 +19,33 @@ O programa conta com mais de 1.500 horas de aulas online, aborda instrodução a
 - [X] 2-2: Git e Github: Parte 2
 - [X] 2-2: Internet
 
-##### Bloco 3: Introdução - HTML & CSS
+#### Bloco 3: Introdução - HTML & CSS
 
 - [X] 3-1: HTML & CSS - Estruturas de página
 - [X] 3-2: HTML & CSS - Primeiros passos em CSS
 - [X] 3-3: HTML & CSS - Seletores e posicionamento
-- [ ] 3-4: HTML Semântico
-- [ ] 3-5: _[Projeto - HTML & CSS]()_
+- [X] 3-4: HTML Semântico
+- [X] 3-5: _[Projeto - HTML & CSS]()_
+
+#### Bloco 4: Introdução à JavaScript e Lógica de Programação
+
+- [ ] 4-1: _Introdução - JavaScript_
+- [ ] 4-1: _JavaScript - Primeiros passos_
+- [ ] 4-2: _JavaScript - Array e loop For_
+- [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+- [ ] 4-4: _JavaScript - Objetos e Funções_
+- [ ] 4-5: _[Projeto - Playground Functions]()_
+
+#### Bloco 5: JavaScrip: DOM, Eventos e Web Storage
+
+- [ ] 5-1: _JavaScript - DOM e seletores_
+- [ ] 5-2: _JavaScript - Trabalhando com elementos_
+- [ ] 5-3: _JavaScript - Eventos_
+- [ ] 5-4: _JavaScript - Web Storage_
+- [ ] 5-5: _Fundamentos - JavaScript - Projetos_
+- [ ] 5-5: _[Projeto - Arte com Pixels]()_
+- [ ] 5-6: _[Projeto - Lista de Tarefas]()_
+- [ ] 5-7: _[Projeto Bônus - Meme Generator]()_
+- [ ] 5-7: _[Projeto Bônus - Adivinhe a Cor]()_
+- [ ] 5-7: _[Projeto Bônus - Carta Misteriosa]()_
+
