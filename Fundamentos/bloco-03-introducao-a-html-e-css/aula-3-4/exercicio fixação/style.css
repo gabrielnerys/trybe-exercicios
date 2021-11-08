@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.podium .first{
+    text-align: center;
+    display: inline-block;
+}
+
+.podium .second,.third{
+    
+    display: inline-block;
+}
+
+.premios li{
+    display: inline-block;
+    text-align:  center;
+}
