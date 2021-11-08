@@ -1,6 +1,6 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Gabriel Nery](https://www.linkedin.com/in/gabrielnerysilva/)_ enquanto estudava na _[Trybe](https://www.betrybe.com/)_ .
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Gabriel Nery](https://www.linkedin.com/in/gabrielnerysilva/)_ enquanto estuda na _[Trybe](https://www.betrybe.com/)_ .
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
@@ -29,8 +29,8 @@ O programa conta com mais de 1.500 horas de aulas online, aborda instrodução a
 
 #### Bloco 4: Introdução à JavaScript e Lógica de Programação
 
-- [ ] 4-1: _Introdução - JavaScript_
-- [ ] 4-1: _JavaScript - Primeiros passos_
+- [X] 4-1: _Introdução - JavaScript_
+- [X] 4-1: _JavaScript - Primeiros passos_
 - [ ] 4-2: _JavaScript - Array e loop For_
 - [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 4-4: _JavaScript - Objetos e Funções_
