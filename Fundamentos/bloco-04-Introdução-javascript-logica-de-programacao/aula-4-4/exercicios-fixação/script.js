@@ -97,3 +97,48 @@
 //   for (let keys in car){
 //       console.log (keys, car[keys]);
 //   }
+
+// function bomDia(tryber) {
+//     console.log ('Bom dia ' + tryber + ' :)')
+// }
+
+// bomDia('João');
+// bomDia('Pedro');
+// bomDia('Maria');
+// bomDia('Roberta');
+
+// let stats = "logado";
+// function logarDeslogar() {
+//     if (stats === "logado") {
+//         stats = "deslogado"
+//     } else {
+//         stats = "logado"
+//     }    
+// }
+
+// console.log (stats)
+
+// logarDeslogar();
+// console.log (stats);
+
+// logarDeslogar();
+// console.log (stats);
+
+// logarDeslogar();
+
+// console.log ('O usuario está ' + stats)
+
+// function maiorMenor(firstNum, secondNum) {
+//     if (firstNum > secondNum) {
+//         console.log (firstNum + ' é maior que ' + secondNum);
+//     } else if (secondNum > firstNum) {
+//         console.log (secondNum + ' é maior que ' + firstNum);
+//     } else{
+//         console.log ('Os numeros são iguais');
+//     }
+// }
+
+// maiorMenor(50, 30);
+// maiorMenor(15, 30);
+// maiorMenor(-15, 2);
+// maiorMenor(200, 200);
