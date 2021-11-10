@@ -1,3 +1,6 @@
+// EXERCICIOS FIXAÇÃO OBJETOS ------------------------------------------------------------------------------------------------------------
+
+
 // let diasDaSemana = {
 //     1: 'domingo',
 //     2: 'segunda',
@@ -53,3 +56,44 @@
 
 // console.log ('A jogadora ' + player.name + ' ' + player.lastName + ' foi eleita a melhor do mundo por 6 vezes seguidas nos anos de ' + player.bestInTheWorld + '.')
 // console.log ('A jogadora ' + player.name + ' possui ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' medalhas de prata.')
+
+
+// EXERCICIO FIXAÇÃO FOR/IN------------------------------------------------------------------------------------------------------------
+
+
+// let cars = ['Saab', 'Volvo', 'BMW'];
+
+// for (let index in cars) {
+//   console.log(index, cars[index]);
+// }
+
+// let car = {
+//     type: 'Fiat',
+//     model: '500',
+//     color: 'white',
+//   };
+
+//   for (let index in car) {
+//     console.log(index, car[index]);
+//   }
+
+// console.table(car)
+
+// let names = {
+//     person1: 'João',
+//     person2: 'Maria',
+//     person3: 'Jorge' 
+//   };
+
+//   for (let olar in names){
+//       console.log ('Olá ' + names[olar]);
+//   }
+
+// let car = {
+//     model: 'A3 Sedan',
+//     manufacturer: 'Audi',
+//     year: 2020
+//   };
+//   for (let keys in car){
+//       console.log (keys, car[keys]);
+//   }
