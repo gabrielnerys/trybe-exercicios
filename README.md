@@ -37,7 +37,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda instrodução a
 - [X] 4-5: _[Projeto - Playground Functions]()_
 - [X] 4-6: _Desafio lógico JavaScript_
 
-#### Bloco 5: JavaScrip: DOM, Eventos e Web Storage
+#### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 
 - [ ] 5-1: _JavaScript - DOM e seletores_
 - [ ] 5-2: _JavaScript - Trabalhando com elementos_
