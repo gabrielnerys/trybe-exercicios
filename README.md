@@ -43,8 +43,8 @@ O programa conta com mais de 1.500 horas de aulas online, aborda instrodução a
 - [X] 5-2: _JavaScript - Trabalhando com elementos_
 - [X] 5-3: _JavaScript - Eventos_
 - [X] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _Fundamentos - JavaScript - Projetos_
-- [ ] 5-5: _[Projeto - Arte com Pixels]()_
+- [X] 5-5: _Fundamentos - JavaScript - Projetos_
+- [X] 5-5: _[Projeto - Arte com Pixels]()_
 - [ ] 5-6: _[Projeto - Lista de Tarefas]()_
 - [ ] 5-7: _[Projeto Bônus - Meme Generator]()_
 - [ ] 5-7: _[Projeto Bônus - Adivinhe a Cor]()_
