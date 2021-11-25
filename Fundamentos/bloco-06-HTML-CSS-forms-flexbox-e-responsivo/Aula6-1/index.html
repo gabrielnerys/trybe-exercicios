@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de teste</h1>
+    </header>
+    <main>
+        <form action="" method="get">
+            <label for="input-text">Qual o seu nome?</label>
+            <input type="text" name="value" id="input-text" placeholder="Escreva aqui o seu nome" style="margin-bottom: 10px;">
+            <br>
+            <label for="birthday">Data de nascimento</label>
+            <input type="date" id="birthday" style="margin-bottom: 10px;" name="birthday">
+            <br>
+            Como você se identifica?
+            <label for="sexo1"><input type="radio" name="sex" value="man" id="sexo1">Homem</label>
+            <label for="sexo2"><input type="radio" name="sex" value="woman" id="sexo2">Mulher</label>
+            <label for="sexo3"><input type="radio" name="sex" value="nbin" id="sexo3">Pokemon</label>
+            <br>
+            Em que estado você mora?
+            <select name="estado" id="state" style="margin-top: 10px;">
+                <option value="null"></option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="sp">São Paulo</option>
+                <option value="pr">Paraná</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="sc">Santa Catarina</option>
+            </select>
+            <br>
+            <textarea name="dcrp" id="" cols="30" rows="10" placeholder="Conte-nos um pouco mais sobre você" style="margin-top: 10px;"></textarea>
+            <button type ="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
