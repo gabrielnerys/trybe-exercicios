@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+#root {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  line-height: 5px;
+  align-items: center;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px ;
+  background: cornflowerblue;
+  border-radius: 10px;
+}
