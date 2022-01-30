@@ -35,12 +35,24 @@ class App extends Component {
       clickButtonThree: clickButtonThree + 1,
     }));
   }
+
+  btnEvenIsGreen(num) {
+    return num % 2 === 0 ? 'green' : 'white'; 
+  }
+
   render() {
+    const { clickButtonOne, clickButtonTwo, clickButtonThree } = this.state
     return (
       <>
-        <button onClick={ this.handleClick1 }>Button 1 | Count:{ this.state.clickButtonOne }</button>
-        <button onClick={ this.handleClick2 }>Button 2 | Count:{ this.state.clickButtonTwo }</button>
-        <button onClick={ this.handleClick3 }>Button 3 | Count:{ this.state.clickButtonThree }</button>
+        <button 
+        onClick={ this.handleClick1 }
+        style={{ backgroundColor: this.btnEvenIsGreen(clickButtonOne) }}> Button 1 | Count:{ this.state.clickButtonOne }</button>
+        <button 
+        onClick={ this.handleClick2 }
+        style={{ backgroundColor: this.btnEvenIsGreen( clickButtonTwo) }}>Button 2 | Count:{ this.state.clickButtonTwo }</button>
+        <button 
+        onClick={ this.handleClick3 }
+        style={{ backgroundColor: this.btnEvenIsGreen( clickButtonThree) }}>Button 3 | Count:{ this.state.clickButtonThree }</button>
       </>
     );
   }
