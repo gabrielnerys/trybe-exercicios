@@ -100,7 +100,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda instrodução a
 
 - [X] 12-1: _Ciclo de vida de componentes_
 - [X] 12-2: _React Router_
-- [ ] 12-3: _[Projeto - TrybeTunes]()_
+- [X] 12-3: _[Projeto - TrybeTunes]()_
 
 #### Bloco 13: Metodologias Ágeis
 

@@ -9,7 +9,7 @@ class Select extends Component {
     return (
       <div>
         <label>
-          Campo Select
+          Campo Select 
           <select
             name="fieldSelect"
             value={value}
