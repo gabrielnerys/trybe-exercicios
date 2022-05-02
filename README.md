@@ -145,64 +145,73 @@ O programa conta com mais de 1.500 horas de aulas online, aborda instrodução a
 #### Bloco 19: Introdução à SQL
 
 - [X] 19-1: _Introdução - Back-end_
-- [X] 19-1: _Introdução - Bancos de dados relacionais_
-- [X] 19-1: _Banco de dados SQL_
-- [X] 19-2: _Encontrando dados em um banco de dados_
+- [X] 19-1: _Utilizando Containers - Docker_
+- [X] 19-1: _Manipulação e criação de imagens no Docker_
+- [X] 19-2: _Orquestrando Containers com Docker Composer_
 - [X] 19-3: _Filtrando dados de forma específica_
-- [X] 19-4: _Manipulando tabelas_
-- [ ] 19-5: _[Projeto - All For One]()_
+- [X] 19-5: _[Projeto - Todo-List]()_
 
-#### Bloco 20: Funções SQL, Joins e Subqueries
+#### Bloco 20: Introdução à SQL
 
-- [ ] 20-1: _Funções mais usadas no SQL_
-- [ ] 20-2: _Descomplicando JOINs, UNIONs e Subqueries_
-- [ ] 20-3: _Stored Routines & Stored Functions_
-- [ ] 20-4: _[Projeto - Vocabulary Booster]()_
+- [X] 20-1: _Introdução - Bancos de dados relacionais_
+- [X] 20-1: _Banco de dados SQL_
+- [X] 20-2: _Encontrando dados em um banco de dados_
+- [X] 20-3: _Filtrando dados de forma específica_
+- [X] 20-4: _Manipulando tabelas_
+- [x] 20-5: _[Projeto - All For One]()_
 
-#### Bloco 21: Normalização e Modelagem de banco de dados
+#### Bloco 21: Funções SQL, Joins e Normalização
 
-- [ ] 21-1: _Transformando ideias em um modelo de banco de dados - Parte 1_
-- [ ] 21-2: _Normalização, Formas Normais e Dumps_
-- [ ] 21-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 21-3: _[Projeto - One For All]()_
+- [X] 21-1: _Funções mais usadas no SQL_
+- [ ] 21-2: _Descomplicando JOINs_
+- [ ] 21-3: _Transformando ideias em um modelo de banco de dados_
+- [ ] 21-4: _Aula ao vivo + [Projeto - One for All]()_
 
-#### Bloco 22: Introdução à MongoDB
+#### Bloco 22: Introdução ao Desenvolvimento WEB com NodeJS
 
-- [ ] 22-1: _Introdução - NoSQL_
-- [ ] 22-1: _Introdução - MongoDB_
-- [ ] 22-2: _Filter Operators_
-- [ ] 22-3: _[Projeto - Data Flights]()_
+- [ ] 22-1: _Introdução - NodeJS_
+- [ ] 22-1: _NodeJS, um motor Javascript_
+- [ ] 22-2: _NodeJS, Fluxo assíncrono_
+- [ ] 22-3: _Mocha, chai e Sinon - Teste de backend com NodeJS_
+- [ ] 22-4: _Express - HTTP com NodeJS_
+- [ ] 22-5: _Express, middlewares_
+- [ ] 22-6: _Atividades + [Projeto - Talker Manager]()_
 
-#### Bloco 23: MongoDB: Updates Simples e Complexos
+#### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 23-1: _Updates Simples_
-- [ ] 23-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 23-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 23-4: _[Projeto - Commerce]()_
+- [ ] 23-1: _Introdução - Arquitetura de Software_
+- [ ] 23-1: _Arquitetura de Software - Camada de Model_
+- [ ] 23-2: _Arquitetura de Software - Camada de Controller e Service_
+- [ ] 23-3: _Arquitetura Web - Rest e Restful_
+- [ ] 23-4: _Arquitetura de Software - Testando Camadas_
+- [ ] 23-5: _[Projeto - Store Manager]()_
 
-#### Bloco 24: MongoDB: Aggregation Framework
+#### Bloco 24: Node.js: ORM e Autenticação
 
-- [ ] 24-1: _Aggregation Framework - Part 1_
-- [ ] 24-2: _Aggregation Framework - Part 2_
-- [ ] 24-3: _[Projeto - Aggregations]()_
+- [ ] 24-1: _Introdução - Node.js: ORM e Autenticação_
+- [ ] 24-1: _ORM - Interface da aplicação com o banco de dados_
+- [ ] 24-2: _ORM - Associations_
+- [ ] 24-3: _JWT - (JSON Web Token)_
+- [ ] 24-4: _Testando APIs com Testes de Integração_
+- [ ] 24-5: _[Projeto - API dos Blogs]()_
 
-#### Bloco 25: Introdução ao Desenvolvimento Web com NodeJS
 
-- [ ] 25-1: _Introdução NodeJs_
-- [ ] 25-2: _Fluxo Assíncrono - NodeJS_
-- [ ] 25-3: _Testes com NodeJS_
-- [ ] 25-4: _Express: HTTP com NodeJS_
-- [ ] 25-5: _Express: Middlewares_
-- [ ] 25-6: _[Projeto - Talker Manager]()_
+#### Bloco 25: Deployment
 
-#### Bloco 26: NodeJS: Camada de serviço e arquitetura Rest e Restful
+- [ ] 25-1: _Introdução - Deploy_
+- [ ] 25-1: _Infraestrutura - Deploy com Heroku_
+- [ ] 25-2: _Deploy Docker & Heroku_
+- [ ] 25-3: _[Projeto - Stranger Things]()_
 
-- [ ] 26-1: _Arquitetura de Software_
-- [ ] 26-1: _Arquitetura de Software - Camada de Model_
-- [ ] 26-2: _Arquitetura de Software - Camada de Controller e Service_
-- [ ] 26-3: _Arquitetura Web - Rest e Restful_
-- [ ] 26-4: _Arquitetura de Software - Testando Camadas_
-- [ ] 26-5: _[Projeto - Store Manager]()_
+#### Bloco 26: Typescript
+
+- [ ] 26-1: _Introdução - TypeScript_
+- [ ] 26-1: _Introdução ao TypeScript_
+- [ ] 26-2: _Tipagem Estática e Generics_
+- [ ] 26-3: _Express com TypeScript_
+- [ ] 26-4: _[Projeto - Trybe Smith]()_
+
+--------- Ainda a Atualizar ---------
 
 #### Bloco 27: Autenticação e Upload de arquivos
 
