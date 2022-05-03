@@ -163,8 +163,8 @@ O programa conta com mais de 1.500 horas de aulas online, aborda instrodução a
 #### Bloco 21: Funções SQL, Joins e Normalização
 
 - [X] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs_
-- [ ] 21-3: _Transformando ideias em um modelo de banco de dados_
+- [X] 21-2: _Descomplicando JOINs_
+- [X] 21-3: _Transformando ideias em um modelo de banco de dados_
 - [ ] 21-4: _Aula ao vivo + [Projeto - One for All]()_
 
 #### Bloco 22: Introdução ao Desenvolvimento WEB com NodeJS
@@ -213,36 +213,40 @@ O programa conta com mais de 1.500 horas de aulas online, aborda instrodução a
 
 --------- Ainda a Atualizar ---------
 
-#### Bloco 27: Autenticação e Upload de arquivos
+#### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] 27-1: _NodeJS - JWT (JSON Web Token)_
-- [ ] 27-2: _NodeJS - Upload de arquivos com `multer`_
-- [ ] 27-3: _NodeJS - Testando APIs com testes de integração_
-- [ ] 27-4: _[Projeto - Cookmaster]()_
+- [ ] 27-1: _Introdução à Orientação a Objetos_
+- [ ] 27-2: _Herança e Interfaces_
+- [ ] 27-3: _Polimorfismo_
+- [ ] 27-4: _SOLID - Introdução e Princípios S, O e D_
+- [ ] 27-5: _SOLID - Princípios L e I_
+- [ ] 27-6: _[Projeto - Trybers and Dragons]()_
 
-#### Bloco 28: Deployment
+#### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 
-- [ ] 28-1: _Introdução - Deploy_
-- [ ] 28-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 28-2: _Deploy - Gerenciadores de processos_
-- [ ] 28-3: _[Projeto - Stranger Things]()_
+- [ ] 28-1: _[Projeto - TFC - Trybe Futebol Clube]()_
 
-#### Bloco 29: Arquitetura: SOLID e ORM
+#### Bloco 29: Introdução ao MongoDB
 
-- [ ] 29-1: _Arquitetura - Princípios SOLID_
-- [ ] 29-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 29-3: _ORM - Associations_
-- [ ] 29-4: _[Projeto - API de Blogs]()_
+- [ ] 29-1: _Introdução NoSQL_
+- [ ] 29-1: _Introdução ao MongoDB_
+- [ ] 29-2: _Filter Operators_
+- [ ] 29-3: _Operadores de consulta_
+- [ ] 29-4: _Updates simples_
+- [ ] 29-5: _Updates Complexos - Arrays_
+- [ ] 29-6: _[Projeto - Commerce]()_
 
-#### Bloco 30: Sockets
+#### Bloco 30: MongoDB com Node.js e POO
 
-- [ ] 30-1: _Arquitetura de Software - Camada de View_
-- [ ] 30-2: _Sockets - TCP/UDP & NET_
-- [ ] 30-3: _Sockets - Socket.io_
-- [ ] 30-4: _Sockets - Praticando Socket.io_
-- [ ] 30-5: _[Projeto - Webchat]()_
+- [ ] 30-1: _MongoDB e arquitetura MSC_
+- [ ] 30-2: _MongoDB e POO_
+- [ ] 30-3: _[Projeto - Car Shop]()_
 
 #### Bloco 31: Projeto - App de Delivery
 
 - [ ] 31-1: _[Projeto - App de Delivery]()_
 
+#### Bloco 32: MasterClass - VPS, CI/CD
+
+- [ ] 32-1: _Dia 1_
+- [ ] 32-2: _Dia 2_
