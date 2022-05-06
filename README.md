@@ -212,8 +212,6 @@ O programa conta com mais de 1.500 horas de aulas online, aborda instrodução a
 - [ ] 26-3: _Express com TypeScript_
 - [ ] 26-4: _[Projeto - Trybe Smith]()_
 
---------- Ainda a Atualizar ---------
-
 #### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
 - [ ] 27-1: _Introdução à Orientação a Objetos_
