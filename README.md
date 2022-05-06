@@ -166,6 +166,7 @@ O programa conta com mais de 1.500 horas de aulas online, aborda instrodução a
 - [X] 21-2: _Descomplicando JOINs_
 - [X] 21-3: _Transformando ideias em um modelo de banco de dados_
 - [X] 21-4: _Aula ao vivo + [Projeto - One for All]()_
+- [X] 21-5: _[Projeto - One for All]()_
 
 #### Bloco 22: Introdução ao Desenvolvimento WEB com NodeJS
 
