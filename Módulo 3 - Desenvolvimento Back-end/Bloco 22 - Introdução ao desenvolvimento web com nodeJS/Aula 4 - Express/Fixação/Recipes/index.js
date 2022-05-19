@@ -26,14 +26,18 @@ app.get('/recipes', function(req, res){
 
 app.post('/recipes', function (req, res) {
   const { id, name, price, waitTime  } = req.body;
+  
   if (!id || !name || !price || !waitTime) return res.status(404).json({ message: 'All fields are required!'});
+  
   recipes.push({ id, name, price, waitTime });
+  
   res.status(201).json({ message: 'Recipe created successfully!'});
 });
 
 app.post('/recipes', function (req, res) {
   const { id, name, price, waitTime } = req.body;
-  recipes.push({id, name, price, waitTime});  
+  recipes.push({id, name, price, waitTime});
+
   res.status(201).json({ message: 'Recipe created sucessfully'});
 })
 
@@ -68,6 +72,29 @@ app.get('/drinks/search', function(req, res){
   res.status(200).json(filteredDrinks);
 })
 
+app.put('/drinks/:id', function(req, res){
+  const { id } = req.params;
+  const { name, price } = req.body;
+  const drinkIndex = drinks.findIndex((d) => d.id === parseInt(id));
+
+  if(drinkIndex === -1) return res.status(404).json({ message: "Drink not found"});
+
+  drinks[drinkIndex] = {...drinks[drinkIndex], name, price};
+  
+  res.status(204).end();
+});
+
+app.delete('/drinks/:id', function(req, res){
+  const { id } = req.params;
+  const drinkIndex = drinks.findIndex((d) => d.id === parseInt(id));
+
+  if(drinkIndex === -1) return res.status(404).json({ message: "Drink not found"});
+
+  drinks.splice(drinkIndex, 1);
+  
+  res.status(204).end();
+});
+
 app.get('/drinks/:id', function(req, res){
   const { id } = req.params;
   const drink = drinks.find((d) => d.id === parseInt(id));
@@ -78,7 +105,8 @@ app.get('/drinks/:id', function(req, res){
 });
 
 
-app.listen(3002, () => {
+app.listen(3001, () => {
   console.log('Aplicação ouvindo na porta 3001')
 });
+
 
