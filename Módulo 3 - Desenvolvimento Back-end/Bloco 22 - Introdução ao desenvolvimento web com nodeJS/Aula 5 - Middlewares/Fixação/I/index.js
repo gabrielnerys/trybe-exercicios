@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.use(cors());
 
-app.use('/sistema', require('./routes/index'));
+app.use('/', require('./routes/index'));
 
 app.get('/welcome', (request, response) => {
     console.log("welcome");

@@ -12,4 +12,10 @@ describe('Verifica retorno de resultados', () => {
 
     expect(resposta).equals('aprovado')
   });
+  it('Retorna "Valor informado não é um número válido" quando resultado não é um número', () => {
+    const resposta = calculaSituacao(undefined);
+    console.log(resposta);
+
+    expect(resposta).equals('Valor informado não é um número válido')
+  });
 });

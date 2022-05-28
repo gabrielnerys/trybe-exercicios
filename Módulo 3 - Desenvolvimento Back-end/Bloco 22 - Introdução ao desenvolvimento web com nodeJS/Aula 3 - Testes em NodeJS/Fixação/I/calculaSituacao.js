@@ -1,8 +1,13 @@
-function calculaSituacao(media) {
-  if (media > 7) {
+const calculaSituacao = (media) => {
+  if (media >= 7) {
     return 'aprovado';
   }
-  return 'reprovado';
+  if (media < 7) {
+    return 'reprovado';
+  }
+  if (media === undefined) {
+    return 'Valor informado não é um número válido';
+  }
 }
 
 module.exports = calculaSituacao;
