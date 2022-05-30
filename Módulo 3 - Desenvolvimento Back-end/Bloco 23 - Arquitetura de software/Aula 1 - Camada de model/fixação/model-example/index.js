@@ -1,42 +1,11 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 
 const app = express();
+app.use(express.json());
+app.use(bodyParser.json());
 
-const Author = require('./models/Author');
-const { getByAuthorId, getAll } = require('./models/Books')
-
-app.get('/authors', async (_req, res) => {
-	try {
-    const authors = await Author.getAll();
-    res.status(200).json(authors);
-  } catch {
-    res.status(404).json({ message: 'Erro' })
-  }
-});
-
-app.get('/books', async (req, res) => {
-	try {
-    const books = await Book.getAll();
-  
-    res.status(200).json(books);
-  } catch {
-    res.status(404).json({ message: 'Erro' })
-  }
-});
-
-app.get('/books/search', async (req, res) => {
-	try {
-    const { author_id } = req.query;
-
-    const books = (author_id)
-    ? await getByAuthorId(author_id)
-    : await getAll();
-  
-    res.status(200).json(books);
-  } catch {
-    res.status(404).json({ message: 'Erro' })
-  }
-});
+app.use('/', require('./routes/index'));
 
 const PORT = process.env.PORT || 3001;
 

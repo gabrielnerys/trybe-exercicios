@@ -1,5 +1,11 @@
 const connection = require('./connection');
 
+const insertAuthor = (firstName, middleName, lastName, birthday, nationality) => {connection.execute(
+		'INSERT INTO model_example.authors (first_name, middle_name, last_name, birthday, nationality) VALUES (?, ?, ?, ?, ?);',
+    [firstName, middleName, lastName, birthday, nationality],
+	);
+};
+
 const getNewAuthor = ({ id, firstName, middleName, lastName }) => {
   const fullName = [firstName, middleName, lastName]
   .filter(Boolean)
@@ -21,11 +27,11 @@ const serialize = (authorData) => ({
   lastName: authorData.last_name
 });
 
-const getAll = async () => {
+const getAllAuthors = async () => {
 	const [authors] = await connection.execute(
 		'SELECT id, first_name, middle_name, last_name FROM model_example.authors;',
 	);
 	return authors.map(serialize).map(getNewAuthor);
 };
 
-module.exports = { getAll };
+module.exports = { getAllAuthors, insertAuthor };
