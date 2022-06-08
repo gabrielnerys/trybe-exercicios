@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
-  const Employee = sequelize.define('Employee', {
+  const Address = sequelize.define('Address', {
     id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
     city: DataTypes.STRING,
     street: DataTypes.STRING,
@@ -8,12 +8,12 @@ module.exports = (sequelize, DataTypes) => {
   },
   {
     timestamps: false,
-    tablename: 'Addresses',
-    underScore: true,
+    tableName: 'Addresses',
+    underscored: true,
   });
 
-  Employee.associate = (models) => {
-    Employee.belongsTo(models.Employee,
+  Address.associate = (models) => {
+    Address.belongsTo(models.Employee,
       { foreignKey: 'employeeId', as: 'employees' });
   };
 
