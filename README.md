@@ -191,26 +191,26 @@ O programa conta com mais de 1.500 horas de aulas online, aborda instrodução a
 
 - [X] 24-1: _Introdução - Node.js: ORM e Autenticação_
 - [X] 24-1: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 24-2: _ORM - Associations_
-- [ ] 24-3: _JWT - (JSON Web Token)_
-- [ ] 24-4: _Testando APIs com Testes de Integração_
-- [ ] 24-5: _[Projeto - API dos Blogs]()_
+- [X] 24-2: _ORM - Associations_
+- [X] 24-3: _JWT - (JSON Web Token)_
+- [X] 24-4: _Testando APIs com Testes de Integração_
+- [X] 24-5: _[Projeto - API dos Blogs]()_
 
 
 #### Bloco 25: Deployment
 
-- [ ] 25-1: _Introdução - Deploy_
-- [ ] 25-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 25-2: _Deploy Docker & Heroku_
-- [ ] 25-3: _[Projeto - Stranger Things]()_
+- [X] 25-1: _Introdução - Deploy_
+- [X] 25-1: _Infraestrutura - Deploy com Heroku_
+- [X] 25-2: _Deploy Docker & Heroku_
+- [X] 25-3: _[Projeto - Stranger Things]()_
 
 #### Bloco 26: Typescript
 
-- [ ] 26-1: _Introdução - TypeScript_
-- [ ] 26-1: _Introdução ao TypeScript_
-- [ ] 26-2: _Tipagem Estática e Generics_
-- [ ] 26-3: _Express com TypeScript_
-- [ ] 26-4: _[Projeto - Trybe Smith]()_
+- [X] 26-1: _Introdução - TypeScript_
+- [X] 26-1: _Introdução ao TypeScript_
+- [X] 26-2: _Tipagem Estática e Generics_
+- [X] 26-3: _Express com TypeScript_
+- [X] 26-4: _[Projeto - Trybe Smith]()_
 
 #### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
